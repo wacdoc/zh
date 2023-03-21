@@ -4,3 +4,21 @@
 "registry-mirrors": [ "https://dockerproxy.com" ]
 ```
 
+本机开发调试
+
+```
+PG_HOST=pg
+
+REDIS_HOST=redis
+```
+
+修改为
+
+```
+PG_HOST=127.0.0.1
+
+REDIS_HOST=127.0.0.1
+
+```
+
+并注释掉 `NODE_ENV=production`
