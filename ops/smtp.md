@@ -101,11 +101,7 @@ git clone https://github.com/wactax/ops.soft.git
 
 acme.sh 是开源的自动化证书签发工具，
 
-进入配置仓库 ops.soft ，运行 `./ssl.sh`，会在上一级目录创建 `conf` 文件夹。
-
-目录结构如下图：
-
-![](https://pub-b8db533c86124200a9d799bf3ba88099.r2.dev/2023/03/W2occKn.webp)
+进入配置仓库 ops.soft ，运行 `./ssl.sh`，会在**上一级目录**创建 `conf` 文件夹。
 
 从 [acme.sh dnsapi](https://github.com/acmesh-official/acme.sh/wiki/dnsapi) 中找到你的 DNS 服务商，编辑 `conf/conf.sh` 。
 
