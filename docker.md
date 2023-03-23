@@ -22,3 +22,9 @@ REDIS_HOST=127.0.0.1
 ```
 
 并注释掉 `NODE_ENV=production`
+
+## 配置文件
+
+`ops/docker/wac/.env`
+
+redis、postgresql 的密码都默认生成了。需要配置下 MAIL 的 SMTP 发信。
