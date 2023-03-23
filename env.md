@@ -1,3 +1,9 @@
+## openresty
+
+```
+brew install openresty/brew/openresty
+```
+
 ## bun
 
 安装 bun ，版本需要 0.5.8 或以上
