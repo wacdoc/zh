@@ -6,4 +6,12 @@
 curl -fsSL https://bun.sh/install | bash
 ```
 
+mac 用户可以 `brew install bun`
+
 [bunx: 100x faster than npx](https://twitter.com/jarredsumner/status/1606163655527059458)
+
+## direnv
+
+```
+brew install direnv
+```
